@@ -1,12 +1,18 @@
 # Selective Javascript Loader
 
-Contributors: Alessandro Melandri
-Tags: javascript, loading
-Requires at least: 2.7
-Tested up to: 2.8.4
-Stable tag: 1.1
+* Contributors: Alessandro Melandri
+* Tags: javascript, loading
+* Requires at least: 2.7
+* Tested up to: 2.8.4
+* Stable tag: 1.1
 
 Selectively loads Javascript files based on the blog section visited (index, category, single post, page)
+
+## Note
+
+This plugin was originally hosted on WordPress plugin repository. I restarted
+it from scratch on GitHub because I couldn't remember my access credentials for
+Wordpress SVN. This is the reason why you'll find only the 1.1 tag.
 
 ## Description
 
@@ -49,7 +55,7 @@ Nothing :-) The plugin will not try to load a Javascript file if it doesn't exis
 
 Check the footer.php file in your theme and make sure it calls the `<?php wp_footer(); ?>` function.
 
-## Changelog ==
+## Changelog
 
 ### 1.1
 
